@@ -1,0 +1,15 @@
+# Exercicio 61
+print('='*30, '\n\n     10 TERMOS DE UMA PA\n\n' + '='*30)
+
+Primeiro_Termo = int(input('Digite o primeiro termo da PA: '))
+Razao_PA = int(input('Digite a razão da PA: '))
+
+LimitePA = 0 #Variável para a contagem que irá até 10 e pausará o loop abaixo.
+Contador1termo = Primeiro_Termo# Variável criada para que receba o primeiro termo da pa e no loop ela será somada a razão para nos mostrar a progressão da PA, pulando os números conforme a razão.
+
+while not LimitePA == 10:# Enquanto LimitePA não for igual à 10 obteremos este resultado do print abaixo, além de ser adicionado "1" para o limite, assim chegando em 10 e parando o loop while.
+	print(f'{Contador1termo}', end= ' ➞ ')
+	Contador1termo += Razao_PA
+	LimitePA += 1
+	
+print('ACABOU')

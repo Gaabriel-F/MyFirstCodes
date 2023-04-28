@@ -1,0 +1,18 @@
+#ex009
+
+nm = int(input('Digite um número pra ver a sua tabuada: '))
+print()
+print('-'*20)
+print()
+print('{} x {}  = {}'.format(nm, 1, nm*1))
+print('{} x {}  = {}'.format(nm, 2, nm*2))
+print('{} x {}  = {}'.format(nm, 3, nm*3))
+print('{} x {}  = {}'.format(nm, 4, nm*4))
+print('{} x {}  = {}'.format(nm, 5, nm*5))
+print('{} x {}  = {}'.format(nm, 6, nm*6))
+print('{} x {}  = {}'.format(nm, 7, nm*7))
+print('{} x {}  = {}'.format(nm, 8, nm*8))
+print('{} x {}  = {}'.format(nm, 9, nm*9))
+print('{} x {} = {}'.format(nm, 10, nm*10))
+print()
+print('-'*20)
