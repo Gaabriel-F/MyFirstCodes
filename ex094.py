@@ -22,13 +22,14 @@ while True:
             pass
     ageSum += Age
     
-    # Copying the person data to the list.
-    listForPersonData.append(personData.copy())
-    
     # Create a key in the dictionary for gender, with validation.
     personData["Gender"] = input("Gender [M/F]: ").upper().strip()[0]
     while personData["Gender"] not in ['M', 'F']:
         personData["Gender"] = str(input('Gender [M/F]: ')).upper().strip()[0]
+        
+    # Copying the person data to the list.
+    listForPersonData.append(personData.copy())
+    personData.clear()
         
     # Separte the registration from the stop condition.
     print('\n' + '-' * 40)
