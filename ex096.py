@@ -1,6 +1,18 @@
 # Create a function to calculate the area.
 def CalcArea(width, length):
-    
+    """
+    -------------------------------------------------
+        Perform the multiplicaton between 2 values.
+
+        Args:
+            - width (float): receive the width of the area.
+
+            - length (float): receive the length of the area.
+        
+        Returns:
+            None
+    -------------------------------------------------
+    """
     # Calculating the area.
     area = width * length
 
